@@ -9,7 +9,7 @@ import { Fade } from "react-awesome-reveal";
 import {words} from "./components/data-words"
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
-//console.log(selectedWord)
+
 
 
 
@@ -43,7 +43,6 @@ function App() {
   useEffect(() => {
     const handleKeydown = (event) => {
       const { key, keyCode } = event;
-      console.log(key, keyCode);
       if (playable && keyCode >= 65 && keyCode <= 90) {
         const letter = key.toLowerCase();
 
