@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+<p align="center" style="padding: 20px>
+  <a href="https://guess-word-gamev1.netlify.app/" rel="noopener noreferrer">
+    <img width="300" src="https://res.cloudinary.com/dxom9bksx/image/upload/v1648675719/sreenshots/guess-city-logo_vqfcvm.png" alt="cms logo">
+  </a>
+</p>
+<h3 align="center">Guess Word Game</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <img src="https://img.shields.io/badge/React--purple" alt="Version">
+    <img src="https://img.shields.io/badge/CSS--yellow" alt="Version">
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+> Live demo [_here_](https://guess-word-gamev1.netlify.app)
 
-### `npm start`
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Project Status](#project-status)
+* [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## General Information
+Guess Word Game - this game is based on the rules of the old hangman game
+In this project, attempts were made to implement logic based on the particularly phases of the game
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+- React
+- CSS
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+- pick a random word,
+- show correct letters in the word
+- show incorrect letters
+- indicate if same letter is entered more than once
+- responsive design,
+- modals when lost or won,
+- images interaction
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
+![Example screenshot](https://res.cloudinary.com/dxom9bksx/image/upload/v1648676303/sreenshots/guess-city-screenshots_m7tvwj.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Setup and Usage for improove this project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone repo by HTTPS:
+```
+https://github.com/deepen77/guess-word-game.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+or by Github CLI:
+```
+gh repo clone deepen77/guess-word-game
+```
 
-## Learn More
+for installing all dependencies
+```
+npm install for installing all dependencies
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Status
+Project is:  _complete_
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Contact
+Created by [@przemek.starostka](https://www.przemekstarostka.com/) - feel free to contact me!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
